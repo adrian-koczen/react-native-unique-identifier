@@ -1,0 +1,33 @@
+{
+  "name": "react-native-unique-identifier",
+  "version": "1.0.3",
+  "react-native": "js/index",
+  "source": "js/index",
+  "license": "MIT",
+  "author": "Adrian Koczeń",
+  "repository": "https://github.com/adrian-koczen/react-native-unique-identifier",
+  "homepage": "https://github.com/adrian-koczen",
+  "description": "Unique identifier based on iCloud for iOS, and android account ID for Android",
+  "keywords": [
+    "react-native",
+    "unique",
+    "identifier",
+    "uuid",
+    "icloud",
+    "ios",
+    "android",
+    "account"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "UniqueIdentifierSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.uniqueidentifier"
+    }
+  }
+}
