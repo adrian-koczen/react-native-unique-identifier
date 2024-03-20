@@ -12,7 +12,7 @@ Update app.json
 ```
 ### Usage
 
-| Function | Response | Platform |
-| :-------- | :------- | :------- |
-| `getiCloudRecord`      | `iCloud record ID` | iOS |
-| `getAndroidAccountName`      | `google account email` | Android|
+| Function | Response | Platform | Description |
+| :-------- | :------- | :------- | :------- |
+| `getIosCloudRecord`      | `Promise<string>` | iOS | iCloud record |
+| `getAndroidAccountName`      | `Promise<string>` | Android| google email name |
