@@ -1,19 +1,21 @@
 {
   "name": "react-native-unique-identifier",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "react-native": "js/index",
   "source": "js/index",
   "license": "MIT",
   "author": "Adrian Koczeń",
   "repository": "https://github.com/adrian-koczen/react-native-unique-identifier",
   "homepage": "https://github.com/adrian-koczen",
-  "description": "Unique identifier based on iCloud for iOS, and android account ID for Android",
+  "description": "Unique identifier based on iCloud for iOS, and google email name for Android",
   "keywords": [
     "react-native",
     "unique",
     "identifier",
     "uuid",
     "icloud",
+    "email",
+    "expo",
     "ios",
     "android",
     "account"

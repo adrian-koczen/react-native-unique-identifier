@@ -1,3 +1,6 @@
-import NativeModule from './js'
+import { getAndroidAccountName, getIosCloudRecord } from './js'
 
-export default NativeModule
+export {
+    getIosCloudRecord,
+    getAndroidAccountName
+}
