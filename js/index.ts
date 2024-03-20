@@ -1,9 +1,9 @@
 import NativeModule from './NativeModule'
 
-const getIosCloudRecord = NativeModule.getIcloudRecord
-const getAndroidAccountName = NativeModule.getAndroidAccountName
+const getiCloudRecord = NativeModule.getIcloudRecord
+const getGoogleAccountName = NativeModule.getAndroidAccountName
 
 export {
-    getIosCloudRecord,
-    getAndroidAccountName
+    getiCloudRecord,
+    getGoogleAccountName
 }

@@ -1,6 +1,6 @@
-import { getAndroidAccountName, getIosCloudRecord } from './js'
+import { getGoogleAccountName, getiCloudRecord } from './js'
 
 export {
-    getIosCloudRecord,
-    getAndroidAccountName
+    getiCloudRecord,
+    getGoogleAccountName
 }

@@ -14,5 +14,5 @@ Update app.json
 
 | Function | Response | Platform | Description |
 | :-------- | :------- | :------- | :------- |
-| `getIosCloudRecord`      | `Promise<string>` | iOS | iCloud record |
-| `getAndroidAccountName`      | `Promise<string>` | Android| google email name |
+| `getiCloudRecord`      | `Promise<string>` | iOS | iCloud record |
+| `getGoogleAccountName`      | `Promise<string>` | Android| google email name |
