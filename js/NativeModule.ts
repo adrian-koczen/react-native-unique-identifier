@@ -1,8 +1,8 @@
 import { TurboModule, TurboModuleRegistry } from 'react-native'
-
-export interface Spec extends TurboModule {
+interface Spec extends TurboModule {
+    getAndroidAccountName(message: string): Promise<string>,
     getIcloudRecord(): Promise<string>,
     requiresMainQueueSetup(): boolean
 }
 
-export default TurboModuleRegistry.get<Spec>('UniqueIdentifier') as Spec | null
+export default TurboModuleRegistry.get<Spec>('UniqueIdentifier') as Spec || null
