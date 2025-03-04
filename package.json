@@ -1,6 +1,6 @@
 {
   "name": "react-native-unique-identifier",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "react-native": "js/index",
   "source": "js/index",
   "license": "MIT",
