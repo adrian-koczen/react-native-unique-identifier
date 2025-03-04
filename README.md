@@ -24,3 +24,4 @@ Update app.json
 | :-------- | :------- | :------- | :------- |
 | `getiCloudRecord`      | `Promise<string>` | iOS | iCloud record |
 | `getGoogleAccountName`      | `Promise<string>` | Android| google email name |
+| `getAdvertisingInfo`      | `Promise<string>` | Android| advertising ID |
