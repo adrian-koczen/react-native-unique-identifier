@@ -15,8 +15,8 @@ class UniqueIdentifierModule(private val reactContext: ReactApplicationContext) 
 
     init {
         reactContext.addActivityEventListener(object : BaseActivityEventListener() {
-            override fun onActivityResult(activity: Activity?, code: Int, resultCode: Int, data: Intent?) {
-                if (code == requestCode && resultCode == Activity.RESULT_OK) {
+            override fun onActivityResult(activity: Activity, requestCode: Int, resultCode: Int, data: Intent?) {
+                if (requestCode == this@UniqueIdentifierModule.requestCode && resultCode == Activity.RESULT_OK) {
                     val accountName = data?.getStringExtra(AccountManager.KEY_ACCOUNT_NAME)
 
                     promise?.resolve(accountName)
